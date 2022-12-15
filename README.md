@@ -24,6 +24,7 @@ https://github.com/bingyu-cpu/Trade
 # week 3
 
 优化三个方向：
+
 1、N 从1遍历到20  （N为涨跌幅的周期）
 
 2、BTC 和ETH ，谁强买谁
