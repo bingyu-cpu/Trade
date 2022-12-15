@@ -57,12 +57,12 @@ https://github.com/bingyu-cpu/Trade
 如何用python创建 boll_20的数据，什么是布林通道：https://baike.baidu.com/item/%E5%B8%83%E6%9E%97%E9%80%9A%E9%81%93%E6%8C%87%E6%A0%87/2067149?fr=aladdin
 布林通道有 三根线，up，mid，down，我们都用收盘价做布林通道
 
-def boll_standard(df, n=20, std=2, col='收盘价'):
-    df['mid'] = df[col].rolling(n, min_periods=1).mean()
-    df['std'] = df[col].rolling(n, min_periods=1).std(ddof=0)
-    df['up'] = df['mid'] + df['std'] * std
-    df['down'] = df['mid'] - df['std'] * std
-    return df
+     def boll_standard(df, n=20, std=2, col='收盘价'):
+         df['mid'] = df[col].rolling(n, min_periods=1).mean()
+         df['std'] = df[col].rolling(n, min_periods=1).std(ddof=0)
+         df['up'] = df['mid'] + df['std'] * std
+         df['down'] = df['mid'] - df['std'] * std
+         return df
 
 计算得出20日的布林通道，mid 就是均线，20日价格的均线，然后算一个 20日的标准差
 布林上线就是 均线 + 标准差*2
