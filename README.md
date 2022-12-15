@@ -1,3 +1,12 @@
+# 练习代码合集
+脚哥代码：
+https://github.com/script-money/ta-learn 
+wayne 代码：
+https://github.com/wzwmm2006/Trade/blob/main/analyse.py
+陈勇代码：
+https://github.com/yoiochen/ta-learn/tree/main/ta_learn
+
+
 # week 1
 1.通过ccxt，拉取BTC/ETH日线交易数据，利用pandas处理数据
 
