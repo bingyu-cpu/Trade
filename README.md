@@ -39,12 +39,13 @@ https://github.com/bingyu-cpu/Trade
       side 表示 'BUY' or 'SELL'
       type 表示 '市价' 或者其他类型
       quantity 表示下单数量，要计算最小下单数量，比如btc 合约是 0.001，eth 是0.01 等等
-注：apikey存储在配置文件，可设置ip 限制，记得搞个新的币安账户，给自己的大号返佣金
 
+注：apikey存储在配置文件，可设置ip 限制，记得搞个新的币安账户，给自己的大号返佣金
 
 加：
 如何用python创建 boll_20的数据，什么是布林通道：https://baike.baidu.com/item/%E5%B8%83%E6%9E%97%E9%80%9A%E9%81%93%E6%8C%87%E6%A0%87/2067149?fr=aladdin
 布林通道有 三根线，up，mid，down，我们都用收盘价做布林通道
+
 def boll_standard(df, n=20, std=2, col='收盘价'):
     df['mid'] = df[col].rolling(n, min_periods=1).mean()
     df['std'] = df[col].rolling(n, min_periods=1).std(ddof=0)
@@ -62,6 +63,7 @@ def boll_standard(df, n=20, std=2, col='收盘价'):
 2.当价格穿越下限支撑线时.买点信号
 3.当价格由下向上穿越中界限时,为加码信号
 4.当价格由上向下穿越中界线时,为卖出信号
+
 操作原则
 布林线的最主要的理论原则有以下五条
 1、价格由下向上穿越Down线时，可视为买进信号。
@@ -69,9 +71,7 @@ def boll_standard(df, n=20, std=2, col='收盘价'):
 3、价格在中间线与Up线之间波动运行时为多头市场，可持多或加码。
 4、价格长时间在中间线与Up线间运行后，由上往下跌破中间线为卖出信号5、价格在中间线与Down线之间向下波动运行时为空头市场，可持空或加抛。
 
-
 简单一点就是用布林线做一个择时，什么时候开仓，什么时候平仓
-
 
 2、简化流程，获取K线数据，计算开盘买哪个币
 ...待补充
