@@ -18,7 +18,9 @@ https://github.com/bingyu-cpu/Trade
 # week 2
 逻辑判断
 当日BTC涨幅大于ETH，次日买入BTC，反之买入ETH，追涨策略
+
 当日BTC涨幅低于ETH，次日买入BTC，反之买入ETH，补涨策略
+
 得出强净值曲线（追涨策略），弱净值曲线（补涨策略）
 
 # week 3
