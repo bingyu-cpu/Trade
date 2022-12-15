@@ -3,7 +3,7 @@
 https://github.com/script-money/ta-learn 
 
 wayne 代码：
-https://github.com/wzwmm2006/Trade/blob/main/analyse.py
+https://github.com/wzwmm2006/Trade
 
 陈勇代码：
 https://github.com/yoiochen/ta-learn/tree/main/ta_learn
