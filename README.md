@@ -39,8 +39,7 @@ https://github.com/bingyu-cpu/Trade
 # week 4 
 
 实盘：
-1、ccxt 下单，链接：https://www.binance.com/zh-CN/binance-api
-     获取币安的apikey，勾选交易功能，实现现货开仓/平仓，合约开仓/平仓功能
+1、ccxt/币安API 链接：https://www.binance.com/zh-CN/binance-api ，获取币安的apikey，勾选交易功能，实现现货开仓/平仓，合约开仓/平仓功能
 
 注：apikey存储在配置文件，可设置ip 限制，记得搞个新的币安账户，给自己的大号返佣金
 
