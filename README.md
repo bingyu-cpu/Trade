@@ -40,19 +40,7 @@ https://github.com/bingyu-cpu/Trade
 
 实盘：
 1、ccxt 下单，链接：https://www.binance.com/zh-CN/binance-api
-     获取币安的apikey，勾选交易功能，以下用合约演示
-     
-     a、获取仓位函数  fapiPrivateGetAccount
-     
-     b、开仓平仓函数 fapiPrivatePostOrder({ symbol, side, type, quantity })
-     
-      symbol 代表币种名称
-    
-      side 表示 'BUY' or 'SELL'
-      
-      type 表示 '市价' 或者其他类型
-      
-      quantity 表示下单数量，要计算最小下单数量，比如btc 合约是 0.001，eth 是0.01 等等
+     获取币安的apikey，勾选交易功能，实现现货开仓/平仓，合约开仓/平仓功能
 
 注：apikey存储在配置文件，可设置ip 限制，记得搞个新的币安账户，给自己的大号返佣金
 
