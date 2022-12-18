@@ -44,7 +44,7 @@ https://github.com/bingyu-cpu/Trade
 注：apikey存储在配置文件，可设置ip 限制，记得搞个新的币安账户，给自己的大号返佣金
 
 加：
-如何用python创建 boll_20的数据
+用python创建 boll_20的数据,创建交易回测
 相关支持库
 
      https://github.com/mpquant/MyTT
