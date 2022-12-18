@@ -46,6 +46,7 @@ https://github.com/bingyu-cpu/Trade
 加：
 如何用python创建 boll_20的数据
 相关支持库
+
      https://github.com/mpquant/MyTT
      
      https://github.com/HuaRongSAO/talib-document#%E5%AE%89%E8%A3%85ta-lib
