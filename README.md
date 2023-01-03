@@ -13,7 +13,7 @@ https://github.com/bingyu-cpu/Trade
 
 
 # week 1
-1.通过ccxt，拉取BTC/ETH日线交易数据，利用pandas处理数据
+1.通过ccxt，拉取BTC/ETH日线交易数据，利用pandas处理数据/n
 
 # week 2
 逻辑判断
