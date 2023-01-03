@@ -13,7 +13,7 @@ https://github.com/bingyu-cpu/Trade
 
 
 # week 1
-1.通过ccxt，拉取BTC/ETH日线交易数据，利用pandas处理数据/n
+1.通过ccxt，拉取BTC/ETH日线交易数据，利用pandas处理数据
 
 # week 2
 逻辑判断
@@ -46,13 +46,10 @@ https://github.com/bingyu-cpu/Trade
 加：
 用python创建 boll_20的数据,创建交易回测
 策略1：突破买入，跌破卖出
-策略2：跌破买入，突破卖出
-比较两种策略净值
-相关支持库
 
-     https://github.com/mpquant/MyTT
-     
-     https://github.com/HuaRongSAO/talib-document#%E5%AE%89%E8%A3%85ta-lib
+策略2：跌破买入，突破卖出
+
+比较两种策略净值
 
 2、简化流程，获取K线数据，计算开盘买哪个币
 ...待补充
