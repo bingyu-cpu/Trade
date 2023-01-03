@@ -45,6 +45,9 @@ https://github.com/bingyu-cpu/Trade
 
 加：
 用python创建 boll_20的数据,创建交易回测
+策略1：突破买入，跌破卖出
+策略2：跌破买入，突破卖出
+比较两种策略净值
 相关支持库
 
      https://github.com/mpquant/MyTT
